@@ -9,10 +9,11 @@ version = "0.1.0"
 
 [dependencies]
 cortex-m = "0.5.0"
-cortex-m-rt = "0.5.0"
+cortex-m-rt = "0.6.0"
 cortex-m-semihosting = "0.3.0"
 panic-semihosting = "0.3.0"
-f3 = "0.6.1"
+f3 = { path = "../f3"}
+
 
 [profile.release]
 codegen-units = 1 # better optimizations
